@@ -6,7 +6,7 @@ public class Solution {
 
     public static void main(String[] args) {
      
-         Pattern p = Pattern.compile("^_[0-9]+[A-Za-z]+[0_]?$");
+         Pattern p = Pattern.compile("^[_\\.][0-9]+[A-Za-z]*[_]?$");
          Scanner scanner = new Scanner(System.in);
            String temp = scanner.nextLine();
          while(scanner.hasNext()){       
